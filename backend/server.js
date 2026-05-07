@@ -28,6 +28,7 @@ app.use(helmet());
 // CORS — supports multiple allowed origins via comma-separated env var
 const allowedOrigins = [
   process.env.FRONTEND_URL,
+  'https://decorlix-2.vercel.app',
   'http://localhost:3000',
   ...(process.env.ALLOWED_ORIGINS
     ? process.env.ALLOWED_ORIGINS.split(',').map(o => o.trim())
