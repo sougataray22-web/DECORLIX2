@@ -15,10 +15,5 @@
       "dest": "/static/$1"
     },
     { "src": "/(.*)", "dest": "/index.html" }
-  ],
-  "env": {
-    "REACT_APP_API_URL":         "@react_app_api_url",
-    "REACT_APP_CASHFREE_MODE":   "@react_app_cashfree_mode",
-    "REACT_APP_STORE_NAME":      "@react_app_store_name"
-  }
-}
+  ]}
+ 
